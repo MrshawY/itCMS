@@ -7,6 +7,10 @@ import 'css/reset.css'
 import 'css/iconfont.css'
 import Fastclink from 'fastclick'
 
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+Vue.use(VueAwesomeSwiper)
+
 Fastclink.attach(document.body)
 Vue.config.productionTip = false
 

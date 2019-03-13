@@ -1,21 +1,4 @@
-# itcms
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+V2-----------------------
+在webpack.base.conf.js里的第39行增加'css': resolve('src/assets/css'),可以简化路径
+在js文件家中这种简化路径需要在前面加上波浪线，而在css文件中则不需要
+在var.styl文件中定义两个变量  类似java中的常量值，只需要在var.styl文件中改变数值，则被引用的所有地方都会更改

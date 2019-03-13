@@ -1,9 +1,47 @@
 <template>
-    <div>Header</div>
+  <div class="header">
+    <div class="header-left">
+      <span class="iconfont">&#xe624;</span>
+    </div>
+    <div class="header-search">
+      <span class="iconfont">&#xe632;</span>
+      城市/景点/游玩主题
+    </div>
+    <div class="header-right">
+      北京
+      <span class="iconfont">&#xe6aa;</span>
+    </div>
+  </div>
 </template>
 <script>
-
 </script>
-<style>
-
+<style lang="stylus">
+@import '~@/assets/css/var.styl';
+.header {
+    width:100%;
+    height:.88rem;
+    background-color: $bgColor;
+    font-size: .36rem;
+    display:flex;
+    color:$allColor
+}
+.header-search{
+    flex:1;
+    background-color: #fff;
+    line-height: .58rem;
+    margin: .15rem 0;
+    border-radius: .1rem;
+    font-size: .23rem;
+    padding:0  0.2rem;
+    color: $textColor;
+}
+.header-right{
+    line-height: .88rem;
+    font-size: .23rem;
+    margin:0rem .1rem 0rem 0.2rem;/* 上右下左*/
+}
+.header-left{
+    line-height: .88rem;
+    margin: 0 .2rem;
+}
 </style>

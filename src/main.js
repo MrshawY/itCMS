@@ -3,8 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import './assets/css/reset.css'
-import './assets/css/iconfont.css'
+import 'css/reset.css'
+import 'css/iconfont.css'
 import Fastclink from 'fastclick'
 
 Fastclink.attach(document.body)

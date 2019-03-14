@@ -13,12 +13,13 @@ export default {
     position: relative;
     display: flex;
     font-size: .2rem;
+    background-color: #fff
 }
 .location .divs{
     flex:1;
     width:50%;
-    height:.7rem;
+    height:1rem;
     text-align: center;
-    line-height: 0.8rem;
+    line-height: 1rem;
 }
 </style>

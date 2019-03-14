@@ -106,6 +106,7 @@ export default {
 .icon {
   width: 100%;
   height: 3.2rem;
+  background-color: #fff
 }
 .icon-body {
   width: 1.6rem;

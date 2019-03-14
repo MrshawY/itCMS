@@ -1,6 +1,6 @@
 <template>
   <div class="header-sweiper">
-    <swiper :options="swiperOption" ref="mySwiper" @someSwiperEvent="callback">
+    <swiper :options="swiperOption" >
       <!-- slides -->
       <swiper-slide v-for="item in seiperList" :key="item.id">
         <img :src="item.imgUrl">
@@ -16,15 +16,15 @@ export default {
       seiperList: [
         {
           id: '01',
-          imgUrl: '../../../assets/img/cluo.jpg'
+          imgUrl: require('../../../assets/img/cluo.jpg')
         },
         {
           id: '02',
-          imgUrl: '../../../assets/img/cluo.jpg'
+          imgUrl: require('../../../assets/img/cluo.jpg')
         },
         {
           id: '03',
-          imgUrl: '../../../assets/img/cluo.jpg'
+          imgUrl: require('../../../assets/img/cluo.jpg')
         }
       ],
       swiperOption: {
@@ -40,14 +40,12 @@ export default {
 <style lang="stylus">
 .header-sweiper {
   width: 100%;
-  height: 3rem;
+  height:2.5rem;
 }
-
-.cimg {
+.header-sweiper img {
   width: 100%;
-  height: 100%;
+  height: 2.5rem;
 }
-
 .swiper-pagination-bullet-active {
   background-color: white;
 }

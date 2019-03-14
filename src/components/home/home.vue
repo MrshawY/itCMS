@@ -5,6 +5,7 @@
     <Icon></Icon>
     <Iocation></Iocation>
     <active></active>
+    <hot></hot>
   </div>
 </template>
 <script>
@@ -13,13 +14,16 @@ import Sweiper from './pages/Sweiper'
 import Icon from './pages/Icons'
 import Iocation from './pages/location'
 import active from './pages/activity'
+import hot from './pages/hotlist'
+
 export default {
   components: {
     HomeHeader,
     Sweiper,
     Icon,
     Iocation,
-    active
+    active,
+    hot
   }
 }
 </script>

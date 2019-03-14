@@ -12,7 +12,7 @@ export default {
 .location{
     position: relative;
     display: flex;
-    font-size: .2rem;
+    font-size: .25rem;
     background-color: #fff
 }
 .location .divs{

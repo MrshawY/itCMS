@@ -99,7 +99,7 @@ export default {
 }
 .lastclass {
   font-size: 0.1rem;
-  margin-left: 3.7rem;
+  margin-left: 2.5rem;
 }
 .hot .hot-top {
   padding-top: 0.1rem;

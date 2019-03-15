@@ -1,0 +1,207 @@
+{
+  "data": [
+    {
+    "city": "北京",
+    "sweiperList": [
+        {
+          "id": "01",
+          "imgUrl": "http://localhost:8080/static/imgcluo.jpg"
+        },
+        {
+            "id": "02",
+          "imgUrl": "http://localhost:8080/static/imgcluo.jpg"
+        },
+        {
+            "id": "03",
+            "imgUrl": "http://localhost:8080/static/imgcluo.jpg"
+        }
+      ],
+      "lists": [
+        {
+          "id":"01",
+          "imgUrl": "../../../assets/img/01.jpg",
+          "msg1": "激流勇进，烧烤露营",
+          "msg2": "轻松水上漂，任我乐逍遥"
+        },
+        {
+          "id": "02",
+          "imgUrl": "../../../assets/img/02.jpg",
+          "msg1": "激流勇进，烧烤露营",
+         " msg2": "轻松水上漂，任我乐逍遥"
+        },
+        {
+          "id": "03",
+         "imgUrl": "../../../assets/img/03.jpg",
+         "msg1": "激流勇进，烧烤露营",
+         "msg2": "轻松水上漂，任我乐逍遥"
+        }
+      ],
+      "hotlist": [
+        {
+          "id": "01",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫1",
+          "price": "20"
+        },
+        {
+          "id": "02",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "这就是历史悠久的故宫这就是历史悠久的故宫这就是历史悠久的故宫",
+          "price": "20"
+        },
+        {
+          "id": "03",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫3",
+          "price": "20"
+        },
+        {
+          "id": "04",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫4",
+          "price": "20"
+        },
+        {
+          "id": "05",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫5",
+          "price": "20"
+        },
+        {
+          "id": "06",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫6",
+          "price": "20"
+        },
+        {
+          "id": "07",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫7",
+          "price": "20"
+        },
+        {
+          "id": "08",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫8",
+          "price": "20"
+        },
+        {
+          "id": "09",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫9",
+          "price": "20"
+        },
+        {
+          "id": "10",
+          "imgUrl": "../../../assets/img/gugong.jpg",
+          "title": "故宫10",
+          "price": "20"
+        }
+      ],
+       "imgs": [
+        {
+          "id": "01",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "景点门票（超级多好看的风景秀丽）"
+        },
+        {
+          "id": "02",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "必游榜单"
+        },
+        {
+          "id": "03",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "夏日玩水"
+        },
+        {
+          "id": "04",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "主题公园"
+        },
+        {
+          "id": "05",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "动植物园"
+        },
+        {
+          "id": "06",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "故宫"
+        },
+        {
+          "id": "07",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "一日游"
+        },
+        {
+          "id": "08",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "公园"
+        },
+        {
+          "id": "09",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "游乐场"
+        },
+        {
+          "id": "10",
+          "imgUrl": "../../../assets/img/timg.jpg",
+          "title": "全部景点"
+        }
+      ],
+      "likelist": [
+        {
+          "id": "01",
+          "imgUrl": "../../../assets/img/like.jpg",
+          "title": "金海湖风景区1",
+          "num": "1341条评论",
+          "price": "18.8",
+          "address": "平谷区"
+        },
+        {
+          "id": "02",
+          "imgUrl": "../../../assets/img/like.jpg",
+          "title": "金海湖风景区2",
+          "num": "1341条评论",
+          "price": "18.8",
+          "address": "平谷区"
+        },
+        {
+          "id": "03",
+          "imgUrl": "../../../assets/img/like.jpg",
+          "title": "金海湖风景区3",
+          "num": "1341条评论",
+          "price": "18.8",
+          "address": "平谷区"
+        },
+        {
+          "id": "04",
+          "imgUrl": "../../../assets/img/like.jpg",
+          "title": "金海湖风景区4",
+          "num": "1341条评论",
+          "price": "18.8",
+          "address": "平谷区"
+        },
+        {
+          "id": "05",
+          "imgUrl": "../../../assets/img/like.jpg",
+          "title": "金海湖风景区5",
+          "num": "1341条评论",
+          "price": "18.8",
+          "address": "平谷区"
+        },
+        {
+          "id": "06",
+          "imgUrl": "../../../assets/img/like.jpg",
+          "title": "金海湖风景区6",
+          "num": "1341条评论",
+          "price": "18.8",
+          "address": "平谷区"
+        }
+      ]
+  },
+ {
+    "city": "上海"
+  }]
+}

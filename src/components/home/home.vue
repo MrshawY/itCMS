@@ -1,11 +1,13 @@
 <template>
   <div class="home">
     <Home-header></Home-header>
-    <Sweiper></Sweiper>
-    <Icon></Icon>
+    <Sweiper :sweiperList='sweiperList'></Sweiper>
+    <Icon :imgs='imgs'></Icon>
     <Iocation></Iocation>
     <active></active>
-    <hot></hot>
+    <hot :hotlist='hotlist'></hot>
+    <like :likelist='likelist'></like>
+    <gowhere :lists="lists"></gowhere>
   </div>
 </template>
 <script>
@@ -15,6 +17,8 @@ import Icon from './pages/Icons'
 import Iocation from './pages/location'
 import active from './pages/activity'
 import hot from './pages/hotlist'
+import like from './pages/like'
+import gowhere from './pages/gowhere'
 
 export default {
   components: {
@@ -23,12 +27,33 @@ export default {
     Icon,
     Iocation,
     active,
-    hot
+    hot,
+    like,
+    gowhere
+  },
+  data () {
+    return {
+      sweiperList: [],
+      hotlist: [],
+      imgs: [],
+      likelist: [],
+      lists: []
+    }
+  },
+  mounted () {
+    this.$http.get('http://localhost:8080/static/mock/DataHome.json').then((res) => {
+      const data = res.data.data[0]
+      this.hotlist = data.hotlist
+      this.imgs = data.imgs
+      this.likelist = data.likelist
+      this.lists = data.lists
+      this.sweiperList = data.sweiperList
+    })
   }
 }
 </script>
 <style >
-    .home{
-      background-color:#f5f5f5;
-    }
+.home {
+  background-color: #f5f5f5;
+}
 </style>

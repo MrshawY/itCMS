@@ -41,13 +41,13 @@ export default {
     }
   },
   mounted () {
-    this.$http.get('http://localhost:8080/static/mock/DataHome.json').then((res) => {
+    this.$http.get('/api/dataHome.json').then((res) => {
       const data = res.data.data[0]
-      this.hotlist = data.hotlist
-      this.imgs = data.imgs
-      this.likelist = data.likelist
-      this.lists = data.lists
-      this.sweiperList = data.sweiperList
+      this.hotlist = data.hotList
+      this.imgs = data.iconsList
+      this.likelist = data.likeList
+      this.lists = data.vacationList
+      this.sweiperList = data.swiperList
     })
   }
 }

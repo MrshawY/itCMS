@@ -12,8 +12,8 @@
     >
       <img :src="itme.imgUrl">
       <div class="go-msg">
-        <p>{{itme.msg1}}</p>
-        <p>{{itme.msg2}}</p>
+        <p>{{itme.title}}</p>
+        <p>{{itme.msg}}</p>
       </div>
     </div>
   </div>

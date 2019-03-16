@@ -10,14 +10,14 @@
           v-for="itme in likelist"
           :key="itme.id"
         >
-          <img :src='itme.imgURl'>
+          <img :src='itme.imgUrl'>
           <div class="li-div">
             <div class="one">{{itme.title}}</div>
-            <div class="tow">{{itme.num}}</div>
-            <div class="three">￥<span class="s-one">{{itme.price}}</span><span class="s-three">
+            <div class="tow">{{itme.msg}}条评论</div>
+            <div class="three">￥<span class="s-one">{{itme.pre}}</span><span class="s-three">
                 起</span></div>
           </div>
-          <span class="s-tow">{{itme.address}}</span>
+          <span class="s-tow">{{itme.map}}</span>
         </li>
       </ul>
     </div>

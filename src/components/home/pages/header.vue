@@ -8,8 +8,10 @@
       城市/景点/游玩主题
     </div>
     <div class="header-right">
+      <router-link to="/city">
       北京
       <span class="iconfont">&#xe6aa;</span>
+      </router-link>
     </div>
   </div>
 </template>
@@ -48,4 +50,7 @@
   line-height: 0.88rem;
   margin: 0 0.2rem;
 }
+.header-right a{
+  color:#fff
+  }
 </style>

@@ -9,13 +9,19 @@
     </div>
     <div class="header-right">
       <router-link to="/city">
-      北京
-      <span class="iconfont">&#xe6aa;</span>
+        {{city}}
+        <span class="iconfont">&#xe6aa;</span>
       </router-link>
     </div>
   </div>
 </template>
 <script>
+import {mapState} from 'vuex'
+export default {
+  computed: {
+    ...mapState(['city'])
+  }
+}
 </script>
 <style lang="stylus">
 @import '~@/assets/css/var.styl';
@@ -50,7 +56,8 @@
   line-height: 0.88rem;
   margin: 0 0.2rem;
 }
-.header-right a{
-  color:#fff
-  }
+
+.header-right a {
+  color: #fff;
+}
 </style>

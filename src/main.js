@@ -6,9 +6,10 @@ import router from './router'
 import 'css/reset.css'
 import 'css/iconfont.css'
 import Fastclink from 'fastclick'
-import axios from 'axios'// 导入axios
+import axios from 'axios' // 导入axios
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
+import store from './store' // 导入vuex
 Vue.use(VueAwesomeSwiper)
 
 Fastclink.attach(document.body)
@@ -20,6 +21,9 @@ Vue.prototype.$http = axios
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  store,
+  components: {
+    App
+  },
   template: '<App/>'
 })

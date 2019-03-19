@@ -6,18 +6,21 @@
     </div>
     <div class="like-bottom">
       <ul>
+
         <li
           v-for="itme in likelist"
           :key="itme.id"
         >
-          <img :src='itme.imgUrl'>
-          <div class="li-div">
-            <div class="one">{{itme.title}}</div>
-            <div class="tow">{{itme.msg}}条评论</div>
-            <div class="three">￥<span class="s-one">{{itme.pre}}</span><span class="s-three">
-                起</span></div>
-          </div>
-          <span class="s-tow">{{itme.map}}</span>
+          <router-link to="/details">
+            <img :src='itme.imgUrl'>
+            <div class="li-div">
+              <div class="one">{{itme.title}}</div>
+              <div class="tow">{{itme.msg}}条评论</div>
+              <div class="three">￥<span class="s-one">{{itme.pre}}</span><span class="s-three">
+                  起</span></div>
+            </div>
+            <span class="s-tow">{{itme.map}}</span>
+          </router-link>
         </li>
       </ul>
     </div>
@@ -51,6 +54,9 @@ export default {
 .like-bottom {
   display: inline-block;
   width: 100%;
+}
+li a {
+  color: black;
 }
 .like-bottom li {
   display: block;
